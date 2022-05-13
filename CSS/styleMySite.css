@@ -1,0 +1,149 @@
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(236, 71, 187);
+    border-width: 6px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+p{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 560%;    /*  100% is equivalent to 16px, so for 90px, 90/16 = around 5.6 i.e 560%,
+                            1em is equivalent to 16px, so for 90px, 90/16 = around 5.6em i.e around 6em, 
+                            % and em helps in maintaining font-size dynamically rather than px
+                            
+                            if body is parent, and h1 is the sub-child, then if body{font-size:200%;}
+                            and then if h1{font-size:500%;}, then in reality h1 will become 500% * 200%
+                            
+                            this does not happen in case of px, it occurs in the case of % and em
+                            so to avoid all this, use "rem", it's the best choice, it does not gets affected
+                            by any parent or sub-child dynamic allocations. */
+    margin-block-start: 0;
+    margin-block-end: 21.4px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #FA4EAB;
+    /*line-height: 2;*/
+    
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #FA4EAB;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #F10086;
+}
+
+.top-container{
+    background-color:#FED1EF;
+    padding-top: 50px;
+    position: relative;
+}
+.profile{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    line-height: 2;
+}
+.profile-pic{
+    width: 40%;
+}
+.skills-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.java{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.dev{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+}
+.top-cloud{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+a{
+    color: #F10086;
+}
+.aProgrammer{
+    font-weight: normal;
+}
+
+.contact-me{
+    width: 50%;
+    margin: 100px auto 50px auto;
+    text-align: center;
+    line-height: 2;
+}
+.excite{
+    font-weight: bold;
+}
+.btn {
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    height: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    width: 203px;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 14px;
+    background-color: #F10086;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 50px auto 50px auto;
+ }
+
+ .bottom-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F10086;
+ }
+ a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;  
+ }
+ a:hover{
+     color: #FA4EAB;
+ }
+ .copyright{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 50px auto 0 auto;
+ }
